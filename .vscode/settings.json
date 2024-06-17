@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "option_pricing_app"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./option_pricing_app",
+        "-p",
+        "test_*.py"
+    ]
+}
